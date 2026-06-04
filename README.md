@@ -1,5 +1,3 @@
-# VEGFR2-Sequence-Homology-Python-Analysis
-Automated multi-species sequence homology and evolutionary conservation analysis of VEGFR2 across Human, Mouse, and Rat models. Features automated NCBI API data retrieval via Python (Jupyter), structural domain tracking using BLASTp, residue-level alignment via Clustal Omega MSA, custom Matplotlib heatmaps, and an interactive Power BI dashboard.
 # Comparative Sequence Homology and Evolutionary Conservation Analysis of VEGFR2
 
 A Python-driven bioinformatics pipeline designed to programmatically fetch, align, and analyze the sequence conservation and domain architecture of Vascular Endothelial Growth Factor Receptor 2 (VEGFR2) across Human (*Homo sapiens*), Rat (*Rattus norvegicus*), and Mouse (*Mus musculus*).
@@ -46,3 +44,17 @@ Understanding structural conservation in therapeutic targets across model organi
 * **Structural Conclusion:** Our alignment recorded extreme conservation (>85% identity and near 100% query coverage) specifically across the critical ATP-binding loops and catalytic active centers. This high sequence preservation mathematically justifies the usage of murine models for evaluating the pharmacodynamics of these newly screened VEGFR2 phytochemical inhibitors before moving to human applications.
 
 ---
+
+## 📂 Repository Files List
+* **README.md** → Complete project documentation and translational research insights.
+* **data retrieval from NCBI.ipynb** → Jupyter Notebook containing the Python pipeline for automated NCBI sequence retrieval via Accession IDs.
+* **MSAheatmapgeneration.ipynb** → Custom Jupyter script used to parse alignment scores and plot the sequence identity heatmap using Matplotlib/Seaborn.
+* **humanproteinvegfr2.fasta** → Raw FASTA format sequence file for human VEGFR2.
+* **mousevegfr2.fasta** → Raw FASTA format sequence file for mouse VEGFR2.
+* **ratvegfr2.fasta** → Raw FASTA format sequence file for rat VEGFR2.
+* **blastp results analysis.pbix** → Interactive Power BI Dashboard file for cross-species homology analysis and metric tracking.
+* **BLAST RESULT SS.png** → High-resolution dashboard output comparing cross-species identity and query coverage.
+* **blast p result ss.png** → Secondary graphical plot mapping the multi-species homology analysis.
+* **blastp screenshot .png** → Reference graphic showcasing the functional domain architecture and specific hit alignment locations from NCBI BLASTp.
+* **MSA RESULT.png** → Output capture of the ClustalOmega multiple sequence alignment showing character-level residue matches.
+* **vegfr2_msa_heatmap.png** → The final data-driven identity heatmap exported via the Python visualization script.
