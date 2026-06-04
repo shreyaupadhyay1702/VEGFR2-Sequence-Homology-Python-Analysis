@@ -46,19 +46,3 @@ Understanding structural conservation in therapeutic targets across model organi
 * **Structural Conclusion:** Our alignment recorded extreme conservation (>85% identity and near 100% query coverage) specifically across the critical ATP-binding loops and catalytic active centers. This high sequence preservation mathematically justifies the usage of murine models for evaluating the pharmacodynamics of these newly screened VEGFR2 phytochemical inhibitors before moving to human applications.
 
 ---
-
-## 📂 Repository Structure
-```text
-├── script/
-│   ├── sequence_retrieval.ipynb     # Jupyter Notebook for fetching NCBI data via Python
-│   └── msa_heatmap_generator.py     # Matplotlib script to plot alignment heatmaps
-├── sequence_data/
-│   ├── vegfr2_sequences.fasta       # Combined multi-FASTA files of target species
-│   └── clustal_alignment.aln        # Raw ClustalOmega MSA output file
-├── blast_outputs/
-│   └── blastp_results_summary.csv   # Parsed identity and coverage percentages
-├── dashboard/
-│   ├── VEGFR2_Homology_Analytics.pbix # Interactive Power BI Dashboard file
-│   └── blast_p_result_ss.png        # Generated sequence homology overview plot
-└── README.md
-```
